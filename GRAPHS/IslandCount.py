@@ -72,6 +72,9 @@ def fill_island(node,  grid , visited= [] , comp_nodes =[]):
 			
 	return comp_nodes;	
 
+
+
+#####			Test Cases
 GRIDS = [[
   ['W', 'L', 'W', 'W', 'W'],
   ['W', 'L', 'W', 'W', 'W'],
@@ -98,7 +101,9 @@ GRIDS = [[
   ['W', 'W'],
 ]
 ]
-ans = [3,4,1,0]
+
+
+ans = [3,4,1,0]  ## answer for the test cases
 
 def test():
 	for i in range(0 , len(ans)):
